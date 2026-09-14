@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Brown West Home Services">
+  <rect width="64" height="64" rx="14" fill="#070707"/>
+  <path d="M10 31 32 13l22 18v21H10Z" fill="none" stroke="#f1cc72" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M22 28h20v24H22z" fill="#0d0d0f" stroke="#d6aa49" stroke-width="2"/>
+  <path d="M28 35h8M32 31v8" stroke="#f1cc72" stroke-width="3" stroke-linecap="round"/>
+</svg>
