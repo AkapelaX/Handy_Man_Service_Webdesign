@@ -496,3 +496,41 @@ main { background: transparent; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .001ms !important; animation-duration: .001ms !important; }
 }
+
+/* Greenbrier-only service-area panel and contact details */
+.service-area-card {
+  padding: clamp(28px, 5vw, 56px);
+  min-height: 360px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: linear-gradient(145deg, rgba(28, 23, 12, .94), rgba(10, 10, 10, .9));
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.service-area-card h3 {
+  color: var(--gold-bright);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3.1rem);
+  line-height: 1.12;
+  margin: 0 0 16px;
+}
+.service-area-card p:not(.eyebrow) { color: var(--muted); max-width: 32rem; }
+.service-area-card .service-area-zip { color: var(--cream) !important; font-weight: 750; }
+.service-area-card .btn { margin-top: 10px; }
+.contact-links .service-location {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 14px;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+.contact-links .service-location span { color: var(--gold-bright); text-transform: uppercase; letter-spacing: .12em; font-size: .74rem; font-weight: 800; }
+.contact-links .service-location strong { font-weight: 600; }
+.footer-area { color: #eee7dc; }
+@media (max-width: 620px) {
+  .contact-links .service-location { grid-template-columns: 1fr; gap: 6px; }
+}
