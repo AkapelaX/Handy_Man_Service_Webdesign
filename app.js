@@ -71,7 +71,7 @@
 
   function buildMessage(fields) {
     return [
-      'Brown West Home Services — Quote Request',
+      'Brown West Handyman Services — Quote Request',
       '',
       `Name: ${fields.name}`,
       `Phone: ${fields.phone}`,
