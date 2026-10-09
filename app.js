@@ -63,7 +63,7 @@
     }
 
     if (!fields.scopeConfirm) {
-      throw new Error('Please confirm that you understand our non-licensed handyman service scope.');
+      throw new Error('Please confirm that you understand the licensing and permit requirements for requested work.');
     }
 
     return fields;
